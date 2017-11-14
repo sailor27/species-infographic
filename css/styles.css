@@ -2,12 +2,22 @@ body {
   background-color:  #ccf2ff;
 
 }
-
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.all-animals {
+  position: relative;
+}
 .map {
+  display: inline-block;
+  position: relative;
   background-image: url("../img/map.png");
+  background-repeat: no-repeat;
+
   width: 100%;
-  height: 1050px;
-  background-size: cover;
+  height: 1150px;
+  font-family: 'Spectral SC', serif;
 }
 
 .header {
@@ -16,4 +26,78 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
   height: 200px;
   font-family: 'Spectral SC', serif;
+}
+
+h3 {
+  margin: 0;
+}
+
+.narwhal-div {
+  position: absolute;
+  left: 450px;
+  top: -125px;
+  text-align: center;
+}
+
+.bat-div {
+  position: absolute;
+  left: 500px;
+  top: 500px;
+  text-align: center;
+}
+
+.crow-div {
+  position: absolute;
+  left: 270px;
+  top: 20px;
+  text-align: center;
+}
+
+.longseal-div {
+  position: absolute;
+  left: 655px;
+  top: 220px;
+  text-align: center;
+}
+
+.meerkat-div {
+  position: absolute;
+  left: 1000px;
+  top:300px;
+  text-align: center;
+}
+
+.pangolin-div {
+  position: absolute;
+  left: 1350px;
+  top: 200px;
+  text-align: center;
+}
+
+.penguins-div {
+  position: absolute;
+  left: 1500px;
+  top: 600px;
+  text-align: center;
+}
+
+.pigeon-div {
+  position: absolute;
+  left: 500px;
+  top: 110px;
+  text-align: center;
+}
+
+.rabbit-div {
+  position: absolute;
+  left: 1000px;
+  top: 20px;
+  text-align: center;
+}
+
+.wolf-div {
+  position: absolute;
+  left: 1300px;
+  top: -70px;
+  text-align: center;
 }
